@@ -1,0 +1,96 @@
+/* Styles for the main todo container */
+.main-div {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(116, 177, 177);
+}
+
+/* Styles for the child container */
+.child-div {
+  background-color: #fff; /* White background */
+  border-radius: 5px; /* Rounded corners */
+  padding: 20px; /* Padding for inner content */
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  width: 400px; /* Fixed width for the todo container */
+}
+
+/* Styles for the figure element (optional) */
+figure {
+  text-align: center; /* Centers the text inside the figure */
+  margin-bottom: 20px; /* Adds some space below the figure */
+  color: #333; /* Dark gray text color */
+}
+
+/* Styles for the figcaption element (optional) */
+figcaption {
+  font-size: 1.2rem; /* Adjusts the font size */
+  font-weight: bold; /* Makes the text bold */
+  color: #1212129a; /* Lighter gray text color */
+}
+
+/* Styles for the "Add Items" section */
+.addItems {
+  display: flex;
+  align-items: center; /* Aligns content vertically */
+  margin-bottom: 20px; /* Adds some space below the add items section */
+}
+
+/* Styles for the input field */
+.addItems input[type="text"] {
+  width: 100%; /* Makes the input field take up the full width */
+  padding: 10px; /* Adds padding to the input field */
+  border: 1px solid #ccc; /* Adds a border to the input field */
+  border-radius: 3px; /* Rounded corners for the input field */
+  font-size: 1rem; /* Adjusts the font size */
+}
+
+/* Styles for the "Add" button (assuming you're using Font Awesome) */
+.addItems i.add-btn {
+  margin-left: 10px; /* Adds a margin to the left of the button */
+  cursor: pointer; /* Sets the cursor to pointer on hover */
+  color: rgb(114, 171, 28); /* Button color */
+  font-size: 35px; /* Adjust font size */
+}
+
+/* Styles for the show items container */
+.showItems {
+  margin-top: 20px; /* Adds some space above the show items section */
+}
+
+/* Styles for each todo item */
+.eachItem {
+  display: flex;
+  justify-content: space-between; /* Distributes content horizontally */
+  align-items: center; /* Aligns content vertically */
+  margin-bottom: 10px; /* Adds space between items */
+  padding: 10px;
+  background: black; /* Background color for todo items */
+  border: 2px solid black;
+  color: white;
+  border-radius: 5px; /* Rounded corners */
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Styles for the todo item text */
+.eachItem h3 {
+  margin: 0; /* Removes default margin */
+  font-size: 1rem; /* Adjusts the font size */
+}
+
+/* Styles for the delete button */
+.eachItem i.delete-btn {
+  cursor: pointer; /* Sets the cursor to pointer on hover */
+  color: #e26f11; /* Red color for the delete button */
+  font-size: 40px; /* Adjust font size */
+}
+
+.remove-all-btn{
+  cursor: pointer; /* Sets the cursor to pointer on hover */
+  color: red; /* Red color for the delete button */
+  border: 1px dotted gray;
+  background-color: rgb(231, 224, 224);
+  border-radius: 10px;
+  font-size: 20px;
+}

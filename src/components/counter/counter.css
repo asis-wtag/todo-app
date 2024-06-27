@@ -1,0 +1,75 @@
+/* counter.css */
+
+.counter-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(116, 177, 177);
+    padding: 20px 0; /* Add padding to match the spacing */
+  }
+  
+  .counter {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+    margin-bottom: 20px; /* Ensure spacing between counter and todo */
+  }
+  
+  .counter h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.616);
+  }
+  
+  .counter-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .count-value{
+    color: rgb(12, 4, 234);
+    font-weight: 900;
+  }
+  
+  .plus-button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: #72ab1c;
+    border: none;
+    border-radius: 5px;
+    color: white;
+  }
+
+  .minus-button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: #8f16cb;
+    border: none;
+    border-radius: 5px;
+    color: white;
+  }
+
+  .reset-button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: #ba1f2a;
+    border: none;
+    border-radius: 5px;
+    color: white;
+  }
+  
+  .counter-buttons button:hover {
+    background-color: #5e8c15;
+  }
+  
