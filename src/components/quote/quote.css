@@ -1,0 +1,28 @@
+.main {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(116, 177, 177);
+}
+
+.secondary {
+  background-color: black; /* White background */
+  border-radius: 5px; /* Rounded corners */
+  padding: 20px; /* Padding for inner content */
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  width: 400px; /* Fixed width for the todo container */
+  margin: 20px;
+  font-size: 30px;
+  color: thistle;
+}
+
+.btn-1 {
+  cursor: pointer; /* Sets the cursor to pointer on hover */
+  color: #e26f11; /* Red color for the delete button */
+  background-color: rgba(221, 221, 68, 0.834);
+  border: 1px solid dotted;
+  border-radius: 5px;
+  color: maroon;
+  padding: 5px;
+}
